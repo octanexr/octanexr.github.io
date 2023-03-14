@@ -867,10 +867,44 @@ h3.my-profession
 .enviar{
     width: 100%;
     border: none;
-    background: #fff;
-    color: #2e2e2e;
+    background: #ff4a66;
+    color: #000;
     font-size: 16px;
     padding: 6px 0;
     border-radius: 50px;
     margin-top: 10px;
+}
+
+.videos-section{
+
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.videos{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.video-btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 100px;
+    margin-top: 200px;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+    float: right;
+    position: absolute;
+    transition: all 0.3s ease;
+
+}
+.video-btn:hover
+{
+    transform: scale(1.05);
 }
