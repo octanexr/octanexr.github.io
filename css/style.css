@@ -908,3 +908,9 @@ h3.my-profession
 {
     transform: scale(1.05);
 }
+
+.imagen-posteo
+{
+    margin-top: 20px;;
+    border-radius: 10px;
+}
