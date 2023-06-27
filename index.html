@@ -1,436 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Octavio Riego</title>
-  <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
-  <!-- ===== CSS Files ===== -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/skins/color-1.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!-- ====== Style Switcher ====== -->
-  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-  <link rel="stylesheet" href="css/style-switcher.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octavio Riego</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-  <!-- ===== Main Container Start ===== -->
-  <div class="main-container">
-    <!-- ===== Aside Start ===== -->
-    <div class="aside">
-      <div class="logo">
-        <a href="#"><span>M</span>enu</a>
-      </div>
-      <div class="nav-toggler">
-        <span></span>
-      </div>
-      <ul class="nav">
-        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
-      </ul>
-    </div>
-    <!-- ===== Aside End ===== -->
-    <!-- ===== Main Content Start ===== -->
-    <div class="main-content">
-      <!-- ===== Home Section Start ===== -->
-      <section class="home active section" id="home"> 
-        <div class="container">
-          <div class="row">
-            <div class="home-info padd-15">
-              <h3 class="hello">Hello, my name is <span class="name">Octavio Riego</span></h3>
-              <h3 class="my-profession">I' m a <span class="typing">community manager</span></h3>
-              <p>I'm a Community manager with extensive experience for over 3 years. I'm an expert at creating online content, managing social media accounts, create and expand online brand awareness and more... </p>
-              <a href="files/CV_Octavio_Riego.pdf" class="btn" target="_blank">Download CV</a>
-            </div>
-            <div class="home-img padd-15">
-              <img src="images/hero.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ===== Home Section End ===== -->
-      <!-- ===== About Section Start ===== -->
-      <section class="about section" id="about"> 
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>About Me</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="about-content padd-15">
-              <div class="row">
-                <div class="about-text padd-15">
-                  <h3>I'm Octavio Riego, and  I'm a <span>Community Manager</span></h3>
-                  <p>I've been working as a content creator and social media manager for the "Jota." brand for 3+ years. I helped grow the main channel (Jota.) from 700.000 to 1.76 million subscribers while we grew the channel "Resumidito" from 0 to 400.000 subscibers in less than 1 year. I'm an expert at creating interesting and engaging content, and I possess deep knowledge about social media and it's inner workings.</p>
-                  <p>In addition to that, I also manage two sucessful TikTok accounts that are constantly growing and evolving. Thanks to my deep knowledge of the platform, we are able to increase are brand awareness and become more a recognisable figure online.</p>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="">
                 </div>
-              </div>
-              <div class="row">
-                <div class="personal-info padd-15">
-                  <div class="row">
-                    <div class="info-item padd-15">
-                      <p>Birthday : <span>20 aug 2003</span></p>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Octavio Riego.</span>
+                    A computer science student.
+                </h1>
+                <p>
+                    I'm a computer science student, I love to explore, innovate and learn about everything in my field of study.
+                    Committed to delivering innovative solutions through strong programming skills and a knack for creating tailored projects. Constantly expanding knowledge and staying updated with industry trends to provide exceptional results.
+                </p>
+                <div class="btn-con">
+                    <a href="CV - Octavio Riego.pdf" class="main-btn" target="_blank">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Passionate about technology from an early age, I am an aspiring computer engineering student and freelance software developer. With an unwavering enthusiasm for all things tech, I have embarked on an enriching academic journey, gaining a strong foundation in programming, computer architecture, and mathematics. As a freelance software developer, I have had the opportunity to create small-scale programs and websites for various small businesses, allowing me to showcase my ability to work independently and deliver tailored solutions. <br /> <br /> 
+                         Combining my theoretical knowledge with hands-on experience, I am dedicated to continuously expanding my skill set and staying updated with the latest advancements in the field. With a commitment to providing personalized and impactful software solutions, I am excited to bring my passion for technology to every project I undertake.
+                    </p>
+                    <div class="btn-con">
+                        <a href="CV - Octavio Riego.pdf" class="main-btn" target="_blank">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>Age : <span>19</span></p>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">20+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>LinkedIn : <span>https://www.linkedin.com/in/octavio-riego-61a9b4269/</span></p>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">2+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>Email : <span>octirie@gmail.com</span></p>
+                    
+                
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>Country : <span>Argentina</span></p>
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>Phone : <span>+54 9 11 6431 9477</span></p>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">65%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>City : <span>Autonomous City of Buenos Aires (CABA)</span></p>
+                    <div class="progress-bar">
+                        <p class="prog-title">Java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info-item padd-15">
-                      <p>Status : <span>Available</span></p>
+                    <div class="progress-bar">
+                        <p class="prog-title">C</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="buttons padd-15">
-                      <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                    <div class="progress-bar">
+                        <p class="prog-title">C++</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2017 - 2021</p>
+                    <h5>Bachelor's degree in social sciences<span>-Colegio Hans Christian Andersen</span></h5>
+                    <p>
+                        
+                    </p>
+                
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - Present</p>
+                    <h5>Freelance Software Developer<span></span></h5>
+                    <p>
+                        As a freelance software developer, I have honed my skills by creating small programs and websites for various small businesses. With a focus on delivering personalized solutions, I have independently designed and developed projects that cater to the specific needs of each client. Although these programs may be small in scale, they have allowed me to demonstrate my ability to work independently and deliver quality results. I am passionate about leveraging my expertise to create impactful software solutions for clients in diverse industries.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - present</p>
+                    <h5>Computer Engeneering degree<span> - Universidad de Palermo</span></h5>
+                    <p>
+                        As a computer engineering student, I've embarked on an enriching academic journey where I've gained a strong foundation in programming, computer architecture, and mathematics. Through practical projects and coursework, I've developed a deep understanding of data structures, algorithms, and software development methodologies. I'm dedicated to continuous learning and eager to leverage my academic experience to excel in the dynamic field of computer engineering.
+                    </p>
                 </div>
                 
-              </div>
-              <div class="row">
-                <div class="education padd-15">
-                  <h3 class="title">Education</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-                        <!-- ===== timeline item ===== -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2016 - 2021
-                          </h3>
-                          <h4 class="timeline-title">Bachellor's degree in Social sciences</h4>
-                          <p class="timeline-text">Colegio Hans Christian Andersen</p>
-                        </div>
-                             <!-- ===== timeline item ===== -->
-                             <div class="timeline-item">
-                              <div class="circle-dot"></div>
-                              <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i> 2022 - Present
-                              </h3>
-                              <h4 class="timeline-title">Computer Science Degree</h4>
-                              <p class="timeline-text">Universidad de Palermo.</p>
+                
+            </div>
+        </section>
+        
+        
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            If you'd like any more information about me, please contact me in any of the bellow channels.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location:</span>
+                                </div>
+                                <p>
+                                    Buenos Aires, Argentina
+                                </p>
                             </div>
-                                 <!-- ===== timeline item ===== -->
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="experience padd-15">
-                  <h3 class="title">Experience</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-                        <!-- ===== timeline item ===== -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2020 - Present
-                          </h3>
-                          <h4 class="timeline-title">Community Manager</h4>
-                          <p class="timeline-text">Jota and Resumidito. I've spent more than 3 years studying and learning the online gaming community. Thanks to my position, I've learned a lot about what kind of content works and creates more engagment.</p>
-                        </div>
-                             <!-- ===== timeline item ===== -->
-                             <div class="timeline-item">
-                              <div class="circle-dot"></div>
-                              <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i>
-                              </h3>
-                              <h4 class="timeline-title">Community Manager Freelancer</h4>
-                              <p class="timeline-text">In my time as a Community Manager, I did (and still do) some works as a freelancer. I've managed some small business social media accounts. This helped them boost their online presence and interaction with potential clients.</p>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email:</span>
+                                </div>
+                                <p>
+                                    <span>octirie@gmail.com</span>
+                                </p>
                             </div>
-                                 <!-- ===== timeline item ===== -->
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education:</span>
+                                </div>
+                                <p>
+                                    <span>Universidad de Palermo, Buenos Aires, Argentina</span>
+                                </p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages:</span>
+                                </div>
+                                <p>
+                                    <span> English, Spanish</span>
+                                </p>
+                            </div>
+                        </div>
                         
-                      </div>
                     </div>
-                  </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="CV - Octavio Riego.pdf" class="main-btn" target="_blank">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
         </div>
-      </section>
-      <!-- ===== About Section End ===== -->
-      <!-- ===== Services Section Start ===== -->
-      <section class="service section" id="services">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Services</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- ===== Service item Start ====== -->
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-mobile-alt"></i>
-                </div>
-                <h4>Design and Creation of online content</h4>
-                <p>I go through the process of identifying a new topic, deciding which form the content to should take, formalizing the strategy, and then actually producing it. I consider content creation to be nuanced and not as simple as it may seem, but I know for a fact that doing it well can trully impact your business.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-laptop-code"></i>
-                </div>
-                <h4>Community Manager</h4>
-                <p>I build, design and manage your online presence. I’m very proficient at copywriting, SEO writing, community management, web and data analysis, and everything that constitutes a community manager.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-bullhorn"></i>
-                </div>
-                <h4>Social Media management</h4>
-                <p>Managing your social media accounts is difficult, and in some cases you may not know what works and what doesn't. In this situations, deep analysis of the target audience, elaborating well made posts or even know at what time you should upload your content is vital. Thats why I am specialized at that. Catering to your audience is crucial.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-comments"></i>
-                </div>
-                <h4>Online moderation</h4>
-                <p>While your content is important, moderation is vital to keep a big and healthy community.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-cog"></i>
-                </div>
-                <h4>Live Stream setup and production</h4>
-                <p>A well planned livestream can make your online brand explode in popularity. Livestreaming is the most popular of media consuption right now, and I know what you should do to get those viral clips.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-                <h4>Marketing Campaign advisor</h4>
-                <p>In my years as a freelancer, I've helped several small business to grow and sell their products. I know a good marketing campaign is everything.</p>
-              </div>
-            </div>
-
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-palette"></i>
-                </div>
-                <h4>Photo and video editing</h4>
-                <p>I have deep knowledge in photo and video editing software such as Adobe Photoshop, Canva, Wondershare Filmora, Da Vinci Resolve and Sony Vegas.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-          </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
         </div>
-      </section>
-      <!-- ===== Services Section End ===== -->
-      <!-- ===== Portfolio Section Start ===== -->
-      <section class="portfolio section" id="portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Portfolio</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="portfolio-heading padd-15">
-              <h2>My Work :</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- ====== portfolio item start ====== -->
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <a href="https://www.youtube.com/@Jota." target="_blank">
-                  <img src="images/portfolio/portfolio-1.jpg" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <a href="https://www.youtube.com/@resumidito." target="_blank">
-                    <img src="images/portfolio/portfolio-2.jpg" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                <a href="https://www.tiktok.com/@jotayoutube" target="_blank">
-                  <img src="images/portfolio/portfolio-3.jpg" alt="">
-                </a>
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <a href="https://www.tiktok.com/@resumiditoyoutube" target="_blank">
-                    <img src="images/portfolio/portfolio-4.jpg" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="videos-section">
-              <h2>Explamples of videos:</h2>
-
-            </div>
-            <div>
-
-              <iframe class="videos" src="https://drive.google.com/file/d/1gmfE4RoI62Q1bCmKkHeysd89v2enUlNp/preview" width="640" height="480" allow="autoplay"></iframe>
-
-              <a href="files/EL MONO QUE DESTUYRO MILES DE COMPUTADORA (Files).rar" class="video-btn" target="_blank">Download video files and script</a>
-
-              <br><br>
-  
-              <iframe class="videos" src="https://drive.google.com/file/d/1BGZxEj2fPKEpfFZX1TTwAzivWXbjr9aN/preview" width="640" height="480" allow="autoplay"></iframe>
-              <a href="files/CURIOSIDADES DE MINECRAFT (Files).rar" class="video-btn" target="_blank">Download video files and script</a>
-            </div>
-            <br>
-            
-
-          </div>
-          <br>
-          <div class="posts-section">
-            <h2>Examples of posts I've made for small business</h2>
-          </div>
-          <div>
-            <img src="files/huge(2).png" height="630" width="630" class="imagen-posteo">
-            <img src="files/Screenshot_3.png" height="630" width="630" class="imagen-posteo">
-
-          </div>
-
-
+        
+        
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
         </div>
-      </section>
-      <!-- ===== Portfolio Section End ===== -->
-      <!-- ===== Contact Section Start ===== -->
-      <section class="contact section" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Contact Me</h2>
-            </div>
-          </div>
-          <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-          <div class="row">
-            <!-- ===== Contact info item start ====== -->
-            <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-phone"></i></div>
-              <h4>Phone Number</h4>
-              <p>+54 9 11 6431 9477</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-              <h4>Location</h4>
-              <p>Buenos Aires, Argentina</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-envelope"></i></div>
-              <h4>Email</h4>
-              <p>octirie@gmail.com</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-globe-europe"></i></div>
-              <h4>Website</h4>
-              <p>www.octavioriego.com</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-          </div>
-          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3> 
-          <!-- ====== Contact Form ====== -->
-          <form action="https://formsubmit.co/octirie@gmail.com" method="POST" />
-            <input type="text" name="name" required placeholder="Name..." class="forminfo">
-            <input type="email" name="email" required placeholder="Email..." class="forminfo">
-            <textarea name="text" cols="30" rows="10" placeholder="Write here..." class="message"></textarea>
-            <button type="submit" class="enviar">Send</button>
-        </form>
-        </div>
-      </section>
-      <!-- ===== Contact Section End ===== -->
     </div>
-    <!-- ===== Main Content End ===== -->
-  </div>
-  <!-- ===== Main Container End ===== -->
-  <!-- ===== Style Switcher Start ===== -->
-  <div class="style-switcher">
-    <div class="style-switcher-toggler s-icon">
-      <i class="fas fa-cog fa-spin"></i>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
     </div>
-    <div class="day-night s-icon">
-      <i class="fas "></i>
-    </div>
-    <h4>Theme Colors</h4>
-    <div class="colors">
-      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-    </div>
-  </div>
-  <!-- ===== Style Switcher End ===== -->
-  <!-- ===== JS Files ===== -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-  <script src="js/script.js"></script>
-  <script src="js/style-switcher.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
